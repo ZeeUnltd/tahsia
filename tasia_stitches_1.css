@@ -1,0 +1,294 @@
+@charset "utf-8";
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: rgb(38, 34, 8);
+}
+
+span{
+font-weight: bold;
+}
+
+#nav-menu li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+#social-icons-top li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+#banner{
+  width: 100%;
+  padding-left: 0;
+  margin-top: -14px;
+  background-attachment: fixed;
+}
+#banner img{
+  width: 100%;
+  height: auto;
+
+}
+
+#banner{
+  background: url('gallery1_tashia.png') no-repeat;
+}
+
+/*.container {
+  justify-content: space-around;
+}*/
+
+.row{
+  padding: 10px;
+}
+
+#container-1{
+  display: flex;
+  justify-content: space-between;
+}
+#container-1 .card{
+  border: 1px #6B2B2B solid;
+  padding: 0.4em;
+  width: 33%;
+  background-color: #Fff;
+}
+#container-1{
+  border: 1px #6B2B2B solid;
+  padding: 0.5em;
+  text-align: center;
+}
+
+#container-1 .card .price-tag{
+  float: right;
+}
+
+#container-1 .card .product-name{
+  float: left;
+  word-break: break-all;
+  /* clear: left; */
+  text-align: left;
+}
+
+.product-detail .product-brand{
+  font-weight: lighter;
+  text-align: left;
+  float: left;
+  vertical-align: baseline;
+}
+
+.product-detail .product-price{
+  float: left;
+  text-align: left;
+}
+.product-detail .product-price .add-to-cart{
+  float: right;
+  text-align: right;
+}
+#container-2 {
+  padding: 10px;
+
+}
+
+#container-2 img{
+  max-width: 100%;
+  max-height: 200px;
+}
+
+#container-2 .thumbnail{
+  text-align: center;
+  margin:10px;
+}
+
+#container-1 .card img{
+  max-width: 100%;
+  max-height: 200px;
+}
+#container-1 .thumbnail{
+border-color: none;
+}
+
+#box-1{
+  flex:2;
+  order:1;
+
+}
+#box-1{
+  flex:2;
+  order:1;
+
+}
+
+#box-2{
+  flex:1;
+  order:2;
+
+}
+
+#box-3{
+  flex:2;
+  order:3;
+
+}
+/*.container-a{
+  background-color: black;
+}*/
+#container-logo {   position: static;
+  top: 10px;
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  background-color: #2d042c;
+  float:left;
+
+}
+
+#header_toppest_menu {
+  position:sticky;
+  top: 0px;
+  width: 100%;
+  height: 28px;
+  border: 0px solid #333;
+  background-color: #4c014a;
+  text-decoration:none;
+  margin-bottom: 0px;
+
+}
+
+#header_toppest_menu img { color:#000; alignment-adjust: baseline;
+  margin-bottom: 0px;}
+
+  #header_toppest_menu img:hover { color:#FFF;}
+
+  #header_toppest_menu a {
+    color: #fff;
+    text-decoration:none;
+  }
+
+
+  #header_top, #footer {   position:   inherit;
+    top: 100px;
+    width: 100% ;
+    height: auto;
+    border: 1px solid #09f;
+    background-color: #4c014a;
+    border: 0px solid #000;
+    text-align: left;
+    text-align-last: unset;
+  }
+  /*#header_top :img{ clip:rect(top right bottom left);}*/
+  #header_top a { text-decoration:none;
+    word-spacing:normal;
+    color:darkgoldenrod;
+    text-align: right;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size:18px;
+  }
+  #header_top{
+    text-align: center;
+  }
+  span a {
+    font-size: 16px;
+  }
+
+
+  #header_top a:hover { background-color: inherit;
+    color: inherit:50%;
+    text-decoration:underline;
+    width:auto; height:65px;
+    color:#FFF;
+
+  }
+
+  #gallery { text-align:left;
+    float: left;
+    border: 3px solid black;
+    width:100%; height:100%;
+    background-image:url(gallery1_tashia.png);
+    background-repeat:no-repeat;
+    background-position:center;
+
+  }
+
+
+
+  #content { text-wrap:normal;
+    border: 1px solid white;
+    width:auto;
+    height:400px;
+
+  }
+
+  #content_block { border: 1px solid black;
+    background-color:#A695A6;
+    width: auto;
+    max-height: 300px;
+  }
+
+  #table { border-left-color:#063;
+  }
+
+  #footer { clear:both;
+    text-decoration:none;
+    color:#ffe;
+    float:left;
+  }
+  #footer div { border-left-color: darkgoldenrod;
+    width:250px;
+    height: auto;
+    border-left-style: solid;
+    margin-right: 5px;
+    /*! direction:ltr; */
+    float:left;
+    margin: 10px;
+  }
+  #footer div { text-align:left;
+    margin-left: 10px;
+    text-decoration: ;
+    font-size: 1em;
+    padding-left: 10px;
+  }
+
+  @media(min-width:568px) {
+    font-size:1em;
+  }
+
+  /*.container-topbar{
+    border: 1px black solid
+    block: float;*/
+  }
+  @media(max-width:768px) {
+    #container-1{
+      display: flex;
+
+    }
+    #container-1 .card{
+      max-width: 98%;
+      background-color: #FEE;
+
+    }
+    #container-1 .thumbnail{
+
+       margin: 20px;
+    }
+  }
+
+  #module { float:left;
+    border: 2px solid black;
+
+  }
+  #module div { background-color:#e4e4e4; max-width:600px; max-height:448px; height:448px; border: 2px solid red;
+
+  }
+
+  button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+    width: 119px;
+    height: 31px;
+    color: #FFF;
+    background-color: #571855;
+    border-radius: 5px;}
